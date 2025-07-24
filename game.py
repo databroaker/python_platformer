@@ -106,6 +106,7 @@ class Game:
         self.sfx['ambience'].play(-1)
 
         while True:
+            #pygame.display.set_caption(f"Player y pos: {self.player.pos[1]}")
             self.display.fill((0, 0, 0, 0))
             self.display_2.blit(self.assets['background'], (0, 0))
 
